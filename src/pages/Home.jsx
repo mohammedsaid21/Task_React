@@ -8,12 +8,12 @@ const Home = () => {
 
       <ul className='bg-white flex justify-between md:flex-row flex-col md:w-[35%] w-[95%] mx-auto px-10 py-5 rounded-lg mt-10 '>
         <li className='mb-3'>
-          <Link to="/exhibitions" className='text-red-400 transition-all hover:text-red-600 p-3 border-b-2 border-red-500 ' >
+          <Link to="/exhibitions" className='text-red-400 transition-all hover:text-red-600 p-3  ' >
           صفحة قائمة المعارض 
           </Link>
         </li>
         <li>
-          <Link to="/questionnaires" className='text-red-400 transition-all hover:text-red-600 p-3 border-b-2 border-red-500 ' >
+          <Link to="/questionnaires" className='text-red-400 transition-all hover:text-red-600 p-3  ' >
           صفحة الاستبيانات
           </Link>
         </li>
