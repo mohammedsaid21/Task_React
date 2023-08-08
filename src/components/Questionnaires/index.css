@@ -2,3 +2,19 @@
   border-collapse: separate;
   border-spacing: 0 7px;
 }
+
+
+table p {
+  color: #727272;
+  /* font-weight: 400; */
+}
+
+/* table tr:hover { */
+table tr.tr-rows {
+  transition: .3s all;
+}
+
+table tr.tr-rows:hover {
+  /* background-color: rgb(228, 228, 228); */
+  background-color: rgb(245, 245, 245);
+}

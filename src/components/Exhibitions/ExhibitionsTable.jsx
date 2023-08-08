@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { AiFillStar } from "react-icons/ai"
 import { AiOutlineStar } from "react-icons/ai"
+import { BiSortAlt2 } from "react-icons/bi";
 
 import ReactPaginate from 'react-paginate';
 
@@ -15,10 +16,14 @@ import PlusImg from "../../assets/plus.png"
 import PDFImg from "../../assets/file-pdf.png"
 import XLSImg from "../../assets/file-XLS.png"
 
-import "./index.css"
+import ArrowRight from "../../assets/arrow-right.png"
+import ArrowLeft from "../../assets/arrow-left.png"
+
 import BodyTable from "./BodyTable";
 import ModalDelete from "../Modal/ModalDelete";
-import { BiSortAlt2 } from "react-icons/bi";
+
+import "./index.css"
+
 
 function Table2() {
     const [showModal, setShowModal] = useState(false);
@@ -40,8 +45,8 @@ function Table2() {
             id: "01",
             name: "معرض خاص بتقييم مساق المادة التعليمية الطبية في جامعة الامام عبد الرحمن بن فيصل",
             evaluation: [AiFillStar, AiFillStar, AiFillStar, AiFillStar, AiFillStar],
-            numberAccounts: "124",
-            numArkan: "25",
+            numberAccounts: 124,
+            numArkan: 24,
             dataStart: "17/05/2023 11:00 م",
             dataEnd: "19/05/2023 11:00 م",
             crud: [{ icon: Police, type: (id) => dateFun(id) }, { icon: HandShake1, type: (id) => dealFun(id) }, { icon: Eye, type: (id) => infoFun(id) }, { icon: Edit, type: (id) => editFun(id) }, { icon: XCircle, type: (id) => deleteFun(id) }],
@@ -51,8 +56,8 @@ function Table2() {
             id: "02",
             name: "معرض خاص بعالم الاعشاب",
             evaluation: [AiOutlineStar, AiOutlineStar, AiFillStar, AiFillStar, AiFillStar],
-            numberAccounts: "24",
-            numArkan: "25",
+            numberAccounts: 24,
+            numArkan: 21,
             dataStart: "17/05/2023 11:00 م",
             dataEnd: "19/05/2023 11:00 م",
             crud: [{ icon: Police, type: (id) => dateFun(id) }, { icon: HandShake1, type: (id) => dealFun(id) }, { icon: Eye, type: (id) => infoFun(id) }, { icon: Edit, type: (id) => editFun(id) }, { icon: XCircle, type: (id) => deleteFun(id) }],
@@ -62,8 +67,8 @@ function Table2() {
             id: "03",
             name: "معرض خاص بعالم الاعشاب",
             evaluation: [AiOutlineStar, AiOutlineStar, AiFillStar, AiFillStar, AiFillStar],
-            numberAccounts: "12",
-            numArkan: "25",
+            numberAccounts: 12,
+            numArkan: 5,
             dataStart: "17/05/2023 11:00 م",
             dataEnd: "19/05/2023 11:00 م",
             crud: [{ icon: Police, type: (id) => dateFun(id) }, { icon: HandShake1, type: (id) => dealFun(id) }, { icon: Eye, type: (id) => infoFun(id) }, { icon: Edit, type: (id) => editFun(id) }, { icon: XCircle, type: (id) => deleteFun(id) }],
@@ -73,8 +78,8 @@ function Table2() {
             id: "04",
             name: "معرض خاص بعالم الاعشاب",
             evaluation: [AiOutlineStar, AiOutlineStar, AiFillStar, AiFillStar, AiFillStar],
-            numberAccounts: "124",
-            numArkan: "25",
+            numberAccounts: 124,
+            numArkan: 29,
             dataStart: "17/05/2023 11:00 م",
             dataEnd: "19/05/2023 11:00 م",
             crud: [{ icon: Police, type: (id) => dateFun(id) }, { icon: HandShake1, type: (id) => dealFun(id) }, { icon: Eye, type: (id) => infoFun(id) }, { icon: Edit, type: (id) => editFun(id) }, { icon: XCircle, type: (id) => deleteFun(id) }],
@@ -84,8 +89,8 @@ function Table2() {
             id: "05",
             name: "معرض خاص بعالم الاعشاب",
             evaluation: [AiOutlineStar, AiOutlineStar, AiFillStar, AiFillStar, AiFillStar],
-            numberAccounts: "1",
-            numArkan: "25",
+            numberAccounts: 1,
+            numArkan: 25,
             dataStart: "17/05/2023 11:00 م",
             dataEnd: "19/05/2023 11:00 م",
             crud: [{ icon: Police, type: (id) => dateFun(id) }, { icon: HandShake1, type: (id) => dealFun(id) }, { icon: Eye, type: (id) => infoFun(id) }, { icon: Edit, type: (id) => editFun(id) }, { icon: XCircle, type: (id) => deleteFun(id) }],
@@ -95,8 +100,8 @@ function Table2() {
             id: "06",
             name: "معرض خاص بعالم الاعشاب",
             evaluation: [AiOutlineStar, AiFillStar, AiFillStar, AiFillStar, AiFillStar],
-            numberAccounts: "124",
-            numArkan: "25",
+            numberAccounts: 124,
+            numArkan: 28,
             dataStart: "17/05/2023 11:00 م",
             dataEnd: "19/05/2023 11:00 م",
             crud: [{ icon: Police, type: (id) => dateFun(id) }, { icon: HandShake1, type: (id) => dealFun(id) }, { icon: Eye, type: (id) => infoFun(id) }, { icon: Edit, type: (id) => editFun(id) }, { icon: XCircle, type: (id) => deleteFun(id) }],
@@ -106,8 +111,8 @@ function Table2() {
             id: "07",
             name: "معرض خاص بعالم الاعشاب",
             evaluation: [AiOutlineStar, AiOutlineStar, AiFillStar, AiFillStar, AiFillStar],
-            numberAccounts: "124",
-            numArkan: "25",
+            numberAccounts: 124,
+            numArkan: 215,
             dataStart: "17/05/2023 11:00 م",
             dataEnd: "19/05/2023 11:00 م",
             crud: [{ icon: Police, type: (id) => dateFun(id) }, { icon: HandShake1, type: (id) => dealFun(id) }, { icon: Eye, type: (id) => infoFun(id) }, { icon: Edit, type: (id) => editFun(id) }, { icon: XCircle, type: (id) => deleteFun(id) }],
@@ -117,8 +122,8 @@ function Table2() {
             id: "08",
             name: "معرض خاص بعالم الاعشاب",
             evaluation: [AiOutlineStar, AiOutlineStar, AiFillStar, AiFillStar, AiFillStar],
-            numberAccounts: "124",
-            numArkan: "25",
+            numberAccounts: 124,
+            numArkan: 125,
             dataStart: "17/05/2023 11:00 م",
             dataEnd: "19/05/2023 11:00 م",
             crud: [{ icon: Police, type: (id) => dateFun(id) }, { icon: HandShake1, type: (id) => dealFun(id) }, { icon: Eye, type: (id) => infoFun(id) }, { icon: Edit, type: (id) => editFun(id) }, { icon: XCircle, type: (id) => deleteFun(id) }],
@@ -128,8 +133,8 @@ function Table2() {
             id: "09",
             name: "معرض خاص بعالم الاعشاب",
             evaluation: [AiOutlineStar, AiOutlineStar, AiFillStar, AiFillStar, AiFillStar],
-            numberAccounts: "124",
-            numArkan: "25",
+            numberAccounts: 124,
+            numArkan: 95,
             dataStart: "17/05/2023 11:00 م",
             dataEnd: "19/05/2023 11:00 م",
             crud: [{ icon: Police, type: (id) => dateFun(id) }, { icon: HandShake1, type: (id) => dealFun(id) }, { icon: Eye, type: (id) => infoFun(id) }, { icon: Edit, type: (id) => editFun(id) }, { icon: XCircle, type: (id) => deleteFun(id) }],
@@ -139,8 +144,8 @@ function Table2() {
             id: "10",
             name: "معرض خاص بعالم الاعشاب",
             evaluation: [AiOutlineStar, AiOutlineStar, AiFillStar, AiFillStar, AiFillStar],
-            numberAccounts: "124",
-            numArkan: "25",
+            numberAccounts: 124,
+            numArkan: 25,
             dataStart: "17/05/2023 11:00 م",
             dataEnd: "19/05/2023 11:00 م",
             crud: [{ icon: Police, type: (id) => dateFun(id) }, { icon: HandShake1, type: (id) => dealFun(id) }, { icon: Eye, type: (id) => infoFun(id) }, { icon: Edit, type: (id) => editFun(id) }, { icon: XCircle, type: (id) => deleteFun(id) }],
@@ -150,8 +155,8 @@ function Table2() {
             id: "11",
             name: "معرض خاص بعالم الاعشاب",
             evaluation: [AiOutlineStar, AiOutlineStar, AiFillStar, AiFillStar, AiFillStar],
-            numberAccounts: "124",
-            numArkan: "25",
+            numberAccounts: 324,
+            numArkan: 25,
             dataStart: "17/05/2023 11:00 م",
             dataEnd: "19/05/2023 11:00 م",
             crud: [{ icon: Police, type: (id) => dateFun(id) }, { icon: HandShake1, type: (id) => dealFun(id) }, { icon: Eye, type: (id) => infoFun(id) }, { icon: Edit, type: (id) => editFun(id) }, { icon: XCircle, type: (id) => deleteFun(id) }],
@@ -161,8 +166,8 @@ function Table2() {
             id: "12",
             name: "معرض خاص بعالم الاعشاب",
             evaluation: [AiOutlineStar, AiOutlineStar, AiFillStar, AiFillStar, AiFillStar],
-            numberAccounts: "124",
-            numArkan: "25",
+            numberAccounts: 104,
+            numArkan: 25,
             dataStart: "17/05/2023 11:00 م",
             dataEnd: "19/05/2023 11:00 م",
             crud: [{ icon: Police, type: (id) => dateFun(id) }, { icon: HandShake1, type: (id) => dealFun(id) }, { icon: Eye, type: (id) => infoFun(id) }, { icon: Edit, type: (id) => editFun(id) }, { icon: XCircle, type: (id) => deleteFun(id) }],
@@ -172,8 +177,8 @@ function Table2() {
             id: "13",
             name: "معرض خاص بعالم الاعشاب",
             evaluation: [AiOutlineStar, AiOutlineStar, AiFillStar, AiFillStar, AiFillStar],
-            numberAccounts: "100",
-            numArkan: "25",
+            numberAccounts: 100,
+            numArkan: 70,
             dataStart: "17/05/2023 11:00 م",
             dataEnd: "19/05/2023 11:00 م",
             crud: [{ icon: Police, type: (id) => dateFun(id) }, { icon: HandShake1, type: (id) => dealFun(id) }, { icon: Eye, type: (id) => infoFun(id) }, { icon: Edit, type: (id) => editFun(id) }, { icon: XCircle, type: (id) => deleteFun(id) }],
@@ -183,8 +188,8 @@ function Table2() {
             id: "14",
             name: "معرض خاص بعالم الاعشاب",
             evaluation: [AiOutlineStar, AiOutlineStar, AiFillStar, AiFillStar, AiFillStar],
-            numberAccounts: "14",
-            numArkan: "25",
+            numberAccounts: 14,
+            numArkan: 25,
             dataStart: "17/05/2023 11:00 م",
             dataEnd: "19/05/2023 11:00 م",
             crud: [{ icon: Police, type: (id) => dateFun(id) }, { icon: HandShake1, type: (id) => dealFun(id) }, { icon: Eye, type: (id) => infoFun(id) }, { icon: Edit, type: (id) => editFun(id) }, { icon: XCircle, type: (id) => deleteFun(id) }],
@@ -200,10 +205,8 @@ function Table2() {
         scrollToTop()
     };
 
-    const pageCount = Math.ceil(data.length / ITEMS_PER_PAGE);
-    const offset = currentPage * ITEMS_PER_PAGE;
 
-    const currentItems = data.slice(offset, offset + ITEMS_PER_PAGE);
+    // const currentItems = data.slice(offset, offset + ITEMS_PER_PAGE);
 
 
     const [sortBy, setSortBy] = useState({ column: '', direction: 'asc' });
@@ -211,14 +214,19 @@ function Table2() {
 
     const sortData = () => {
         if (sortBy.column === '') {
-            return currentItems; // Return original data if no sorting applied
+            return data; // Return original data if no sorting applied
         }
 
-        const sortedData = [...currentItems].sort((a, b) => {
-            if (sortBy.direction === 'asc') {
-                return a[sortBy.column].localeCompare(b[sortBy.column]);
+        const sortedData = [...data].sort((a, b) => {
+            const columnA = a[sortBy.column];
+            const columnB = b[sortBy.column];
+
+            if (typeof columnA === 'number' && typeof columnB === 'number') {
+                return sortBy.direction === 'asc' ? columnA - columnB : columnB - columnA;
             } else {
-                return b[sortBy.column].localeCompare(a[sortBy.column]);
+                return sortBy.direction === 'asc'
+                    ? columnA.toString().localeCompare(columnB.toString())
+                    : columnB.toString().localeCompare(columnA.toString());
             }
         });
 
@@ -228,9 +236,18 @@ function Table2() {
     const handleSort = (column) => {
         setSortBy((prevSortBy) => ({
             column,
-            direction: prevSortBy.column === column && prevSortBy.direction === 'asc' ? 'desc' : 'asc',
+            direction: prevSortBy?.column === column && prevSortBy?.direction === 'asc' ? 'desc' : 'asc',
         }));
     };
+
+
+    const sortedAndPaginatedData = sortData();
+    const pageCount = Math.ceil(sortedAndPaginatedData?.length / ITEMS_PER_PAGE);
+    const offset = currentPage * ITEMS_PER_PAGE;
+
+    const currentItems = sortedAndPaginatedData.slice(offset, offset + ITEMS_PER_PAGE);
+
+
 
     const sortedData = sortData();
 
@@ -285,12 +302,12 @@ function Table2() {
                             </tr>
                         </thead>
                         <tbody className="bg-white text-[#a0a0a0a] text-sm">
-                            <BodyTable data={sortedData} />
+                            <BodyTable data={currentItems} />
                         </tbody>
                     </table>
                     <ReactPaginate
-                        previousLabel={'<'}
-                        nextLabel={'>'}
+                        previousLabel={<img src={ArrowLeft} alt="" />}
+                        nextLabel={<img src={ArrowRight} alt="" />}
                         pageCount={pageCount}
                         onPageChange={handlePageChange}
                         containerClassName={'pagination'}

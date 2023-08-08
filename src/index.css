@@ -3,11 +3,23 @@
 @tailwind utilities;
 
 
+@font-face {
+  font-family: "DIN Next LT Arabic";
+  src: url(assets/font/DINNEXTLTARABIC-LIGHT-2-2.ttf);
+}
 body {
   background-color: #e5e5e5 !important;
+  font-family: 'DIN Next LT Arabic';
+  font-weight: bold;
 }
 
 .container {
   margin-left: auto;
   margin-right: auto;
+}
+
+
+p {
+  font-family: 'DIN Next LT Arabic';
+  /* font-weight: 300; */
 }

@@ -3,7 +3,7 @@ const BodyTable = ({ data }) => {
   return (
     <>
       {
-        data.map((row) => <tr key={row.id} className="text-gray-700">
+        data?.map((row) => <tr key={row.id} className="text-gray-700 tr-rows">
           <td className="px-2 py-3 border">
             {row.id}
           </td>

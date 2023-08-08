@@ -6,7 +6,7 @@ const BodyTable = ({ data }) => {
     <>
       {
         data.map((row, index) =>
-          <tr key={row.id} className={`text-gray-700 rounded-2xl mb-5 ${index % 2 == 1 ? "bg-gray-50" : "bg-white"} `}>
+          <tr key={row.id} className={`tr-rows text-gray-700 rounded-2xl mb-5 ${index % 2 == 1 ? "bg-gray-50" : "bg-white"} `}>
             <td className="px-2 py-3 rounded-s-xl border-t-2 border-b-2 border-s-2 border-gray-100">
               {row.id}
             </td>
@@ -17,17 +17,17 @@ const BodyTable = ({ data }) => {
 
             <td className="px-2 md:py-2 py-[40px] border-t-2 border-b-2 border-gray-100 flex flex-wrap">
               {row.addressedTo.map((el) =>
-                <span key={el} className="bg-[hsl(183,72%,83%)] ms-2 p-2 rounded-full text-[#046C77] text-sm font-sans my-3">{el}</span>
+                <span key={el} className="bg-[hsl(183,72%,83%)] me-2 py-3 px-3 rounded-full text-[#046C77] text-sm my-3">{el}</span>
               )
               }
             </td>
 
             <td className="px-2 py-2 border-t-2 border-b-2 border-gray-100">
-              <p className="">{row.numberAccounts}</p>
+              <p className="text-center">{row.numberAccounts}</p>
             </td>
 
             <td className="px-2 py-2 border-t-2 border-b-2 border-gray-100">
-              <p className="">{row.numArkan}</p>
+              <p className="text-center">{row.numArkan}</p>
             </td>
 
             <td className="px-2 py-2 border-t-2 border-b-2 border-gray-100 text-center">

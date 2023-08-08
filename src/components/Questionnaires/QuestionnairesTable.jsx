@@ -20,6 +20,9 @@ import BodyTable from "./BodyTable";
 import ModalDelete from "../Modal/ModalDelete";
 import { BiSortAlt2 } from "react-icons/bi";
 
+import ArrowRight from "../../assets/arrow-right.png"
+import ArrowLeft from "../../assets/arrow-left.png"
+
 
 const QuestionnairesTable = () => {
   const [showModal, setShowModal] = useState(false);
@@ -41,7 +44,7 @@ const QuestionnairesTable = () => {
       id: "01",
       name: "استبيان خاص بعالم الاعشاب 2",
       addressedTo: ["المدربين"],
-      numberAccounts: "124",
+      numberAccounts: 124,
       numArkan: "25",
       dataStart: "17/05/2023 11:00 م",
       dataEnd: "19/05/2023 11:00 م",
@@ -51,7 +54,7 @@ const QuestionnairesTable = () => {
       id: "02",
       name: "ب خاص بعالم الاعشاب",
       addressedTo: ["المدربين ", " المتدربين"],
-      numberAccounts: "124",
+      numberAccounts: 124,
       numArkan: "25",
       dataStart: "17/05/2023 11:00 م",
       dataEnd: "19/05/2023 11:00 م",
@@ -62,7 +65,7 @@ const QuestionnairesTable = () => {
       id: "03",
       name: "استبيان تجريبي",
       addressedTo: ["المدربين ", " المتدربين"],
-      numberAccounts: "124",
+      numberAccounts: 124,
       numArkan: "25",
       dataStart: "17/05/2023 12:00 م",
       dataEnd: "19/05/2023 11:00 م",
@@ -73,7 +76,7 @@ const QuestionnairesTable = () => {
       id: "04",
       name: "استبيان خاص بعالم الاعشاب",
       addressedTo: ["المدربين"],
-      numberAccounts: "124",
+      numberAccounts: 124,
       numArkan: "25",
       dataStart: "17/05/2023 01:00 م",
       dataEnd: "19/05/2023 12:00 م",
@@ -82,9 +85,9 @@ const QuestionnairesTable = () => {
     },
     {
       id: "05",
-      name: "استبيان خاص بعالم الاعشاب",
+      name: " ي استبيان خاص بعالم الاعشاب",
       addressedTo: ["المدربين ", " المتدربين"],
-      numberAccounts: "124",
+      numberAccounts: 124,
       numArkan: "25",
       dataStart: "17/05/2023 11:00 م",
       dataEnd: "19/05/2023 11:00 م",
@@ -95,7 +98,7 @@ const QuestionnairesTable = () => {
       id: "06",
       name: "استبيان خاص بعالم الاعشاب",
       addressedTo: ["المدربين"],
-      numberAccounts: "124",
+      numberAccounts: 124,
       numArkan: "25",
       dataStart: "17/05/2023 11:00 م",
       dataEnd: "19/05/2023 11:00 م",
@@ -106,7 +109,7 @@ const QuestionnairesTable = () => {
       id: "07",
       name: "استبيان خاص بعالم الاعشاب",
       addressedTo: ["المدربين ", " المتدربين"],
-      numberAccounts: "124",
+      numberAccounts: 124,
       numArkan: "25",
       dataStart: "17/05/2023 03:00 م",
       dataEnd: "19/05/2023 09:00 م",
@@ -115,9 +118,9 @@ const QuestionnairesTable = () => {
     },
     {
       id: "08",
-      name: "استبيان خاص بعالم الاعشاب",
+      name: " خاص بعالم الاعشاب",
       addressedTo: ["المدربين"],
-      numberAccounts: "124",
+      numberAccounts: 124,
       numArkan: "25",
       dataStart: "17/05/2023 11:00 م",
       dataEnd: "19/05/2023 11:00 م",
@@ -128,7 +131,7 @@ const QuestionnairesTable = () => {
       id: "09",
       name: "استبيان خاص بعالم الاعشاب",
       addressedTo: ["المدربين ", " المتدربين"],
-      numberAccounts: "124",
+      numberAccounts: 124,
       numArkan: "25",
       dataStart: "17/05/2023 11:00 م",
       dataEnd: "19/05/2023 11:00 م",
@@ -137,9 +140,9 @@ const QuestionnairesTable = () => {
     },
     {
       id: "10",
-      name: "استبيان خاص بعالم الاعشاب",
+      name: "بعالم الاعشاب",
       addressedTo: ["المدربين"],
-      numberAccounts: "124",
+      numberAccounts: 140,
       numArkan: "25",
       dataStart: "17/05/2023 11:00 م",
       dataEnd: "19/05/2023 11:00 م",
@@ -150,7 +153,7 @@ const QuestionnairesTable = () => {
       id: "11",
       name: "استبيان خاص بعالم الاعشاب",
       addressedTo: ["المدربين ", " المتدربين"],
-      numberAccounts: "124",
+      numberAccounts: 123,
       numArkan: "25",
       dataStart: "17/05/2023 11:00 م",
       dataEnd: "19/05/2023 11:00 م",
@@ -159,9 +162,9 @@ const QuestionnairesTable = () => {
     },
     {
       id: "12",
-      name: "استبيان خاص بعالم الاعشاب",
+      name: "س خاص بعالم الاعشاب",
       addressedTo: ["المدربين"],
-      numberAccounts: "124",
+      numberAccounts: 124,
       numArkan: "25",
       dataStart: "17/05/2023 11:00 م",
       dataEnd: "19/05/2023 11:00 م",
@@ -172,7 +175,7 @@ const QuestionnairesTable = () => {
       id: "13",
       name: "استبيان خاص بعالم الاعشاب",
       addressedTo: ["المدربين"],
-      numberAccounts: "124",
+      numberAccounts: 724,
       numArkan: "25",
       dataStart: "17/05/2023 11:00 م",
       dataEnd: "19/05/2023 11:00 م",
@@ -183,7 +186,7 @@ const QuestionnairesTable = () => {
       id: "14",
       name: "استبيان خاص بعالم الاعشاب",
       addressedTo: ["المدربين ", " المتدربين"],
-      numberAccounts: "124",
+      numberAccounts: 124,
       numArkan: "25",
       dataStart: "17/05/2023 11:00 م",
       dataEnd: "19/05/2023 11:00 م",
@@ -206,31 +209,31 @@ const QuestionnairesTable = () => {
     });
   };
 
-  const pageCount = Math.ceil(data.length / ITEMS_PER_PAGE);
-  const offset = currentPage * ITEMS_PER_PAGE;
-
-  const currentItems = data.slice(offset, offset + ITEMS_PER_PAGE);
-
-  // 
 
   const [sortBy, setSortBy] = useState({ column: '', direction: 'asc' });
-  // const [surveys, setSurveys] = useState(currentItems); // Your data array
 
   const sortData = () => {
     if (sortBy.column === '') {
-      return currentItems; // Return original data if no sorting applied
+      return data;
     }
 
-    const sortedData = [...currentItems].sort((a, b) => {
-      if (sortBy.direction === 'asc') {
-        return a[sortBy.column].localeCompare(b[sortBy.column]);
-      } else {
-        return b[sortBy.column].localeCompare(a[sortBy.column]);
-      }
+    const collator = new Intl.Collator('ar', {
+      sensitivity: 'base',
+      ignorePunctuation: true,
     });
 
+    const sortedData = [...data].sort((a, b) => {
+      const columnA = a[sortBy.column];
+      const columnB = b[sortBy.column];
+
+      if (typeof columnA === 'number' && typeof columnB === 'number') {
+        return (sortBy.direction === 'asc' ? 1 : -1) * (columnA - columnB);
+      } else {
+        return sortBy.direction === 'asc' ? collator.compare(columnA, columnB) : -collator.compare(columnA, columnB);
+      }
+    })
     return sortedData;
-  };
+  }
 
   const handleSort = (column) => {
     setSortBy((prevSortBy) => ({
@@ -239,7 +242,14 @@ const QuestionnairesTable = () => {
     }));
   };
 
-  const sortedData = sortData();
+  const sortedAndPaginatedData = sortData();
+
+  const pageCount = Math.ceil(sortedAndPaginatedData.length / ITEMS_PER_PAGE);
+  const offset = currentPage * ITEMS_PER_PAGE;
+
+  const currentItems = sortedAndPaginatedData.slice(offset, offset + ITEMS_PER_PAGE);
+
+  // const sortedData = sortData();
 
 
   return (
@@ -264,32 +274,33 @@ const QuestionnairesTable = () => {
           <table className="w-full gfg overflow-x-auto">
             <thead>
               <tr className="text-md text-right text-[#f9f9f9] bg-[#046C77] uppercase border-b border-gray-600">
-                <th className="px-2 py-3 text-center">#</th>
-                <th className="px-2 py-3 flex items-center cursor-pointer" onClick={() => handleSort('name')}>
+                <th className="px-2 py-5 text-center">#</th>
+                <th className="px-2 py-5 flex items-center cursor-pointer" onClick={() => handleSort('name')}>
                   <BiSortAlt2 className="ml-2" />
-                  <span>اسم المعرض</span>
+                  <span>عنوان الاستبيان</span>
                 </th>
-                <th className="px-2 py-3 text-center">التقييم</th>
-                <th className="px-2 py-3 text-center">عدد المشاركين</th>
-                <th className="px-2 py-3 text-center">عدد الاركان</th>
-                <th className="px-2 py-3 text-center  cursor-pointer " onClick={() => handleSort('dataStart')}>
+                <th className="px-2 py-5">موجه الى</th>
+                <th className="px-2 py-5 text-center">عدد المشاركين</th>
+                <th className="px-2 py-5 text-center">عدد الاركان</th>
+                <th className="px-2 py-5 text-center  cursor-pointer " onClick={() => handleSort('dataStart')}>
                   <span>تاريخ البدء</span>
                   {/* <BiSortAlt2 className="ms-auto" /> */}
                 </th>
-                <th className="px-2 py-3 text-center  cursor-pointer" onClick={() => handleSort('dataEnd')}>
+                <th className="px-2 py-5 text-center  cursor-pointer" onClick={() => handleSort('dataEnd')}>
                   <span>تاريخ الانتهاء</span>
                   {/* <BiSortAlt2 className="ms-auto" /> */}
                 </th>
-                <th className="px-2 py-3 text-center">الاجراءات</th>
+                <th className="px-2 py-5 text-center">الاجراءات</th>
               </tr>
             </thead>
             <tbody className="bg-white text-[#a0a0a0a] text-sm ">
-              <BodyTable data={sortedData} />
+              <BodyTable data={currentItems} />
             </tbody>
           </table>
+
           <ReactPaginate
-            previousLabel={'<'}
-            nextLabel={'>'}
+            previousLabel={<img src={ArrowLeft} alt="" />}
+            nextLabel={<img src={ArrowRight} alt="" />}
             pageCount={pageCount}
             onPageChange={handlePageChange}
             containerClassName={'pagination'}
@@ -297,9 +308,11 @@ const QuestionnairesTable = () => {
             nextLinkClassName={'pagination__link__next'}
             disabledClassName={'pagination__link--disabled'}
             activeClassName={'pagination__link--active'}
+            breakAriaLabels={true}
           />
         </div>
       </div>
+
     </section>
   );
 }
